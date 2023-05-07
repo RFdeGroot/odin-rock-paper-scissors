@@ -1,0 +1,45 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body {
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Black Ops One', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.weaponsTitle {
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.weaponsSubTitle {
+    text-align: center;
+}
+.weaponsIcons {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border-style: solid;
+}
+
+#resultsHtml {
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    font-size: 2rem;
+}
+
+img {
+    max-width: 100%;
+}
