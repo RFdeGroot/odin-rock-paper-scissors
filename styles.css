@@ -18,7 +18,12 @@ body {
     text-align: center;
 }
 
-.weaponsTitle {
+.score {
+    font-family: 'Black Ops One', cursive;
+    text-align: right;
+}
+
+#weaponsTitle {
     font-family: 'Black Ops One', cursive;
     text-align: center;
     font-size: 2rem;
@@ -42,4 +47,22 @@ body {
 
 img {
     max-width: 100%;
+}
+
+.startgame {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.button {
+    text-align: center;
+    font-size: 1rem;
+    background-color: #e85829;
+    border: 1px;
+    border-radius: 4px;
+    width: 120px;
+    min-height: 30px;
 }
